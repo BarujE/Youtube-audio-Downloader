@@ -13,6 +13,7 @@ print(f"\nVideo found: {entry}\n")
 
 print(f"Downloading Video...")
 video_download.download(filename=f"{entry}.mp4")
-
+vudei_download.download(filename=f"{entry}.mp3")
 print("audio Complete!")
+
 
