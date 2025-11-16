@@ -14,7 +14,9 @@ print(f"\nVideo found: {entry}\n")
 print(f"Downloading Video...")
 video_download.download(filename=f"{entry}.mp4")
 video_download.download(filename=f"{entry}.mp3")
+video_download.download(filename=f"{entry}.wav")
 print("audio Complete!")
+
 
 
 
