@@ -1,16 +1,20 @@
-
+<h1 align="center"> YouTube audio Downloader </h1>
 <h3>Introduction</h3>
-<p>.to use the File add a youtube url and the magic will happen</p>
+<p>to use it  add a youtube url and Select the option mp3, mp4, and wav and watch the Magic happen. </p>
 
 <h3>Features</h3>
 
- * Download YouTube videos and playlists with ease
- * Support for both video and audio downloads
+ * Download YouTube audios and playlists with ease
+ * Support for audio downloads
  * Customizable download options for video downloads
- * Simple and intuitive user interface
  
 <h3>Deploy Locally</h3>
-__Clone the repository__
+Clone the repository
 
 ```
 git clone https:https://github.com/BarujE/Youtube-audio-Downloader.git
+
+Install the required packages:
+``` 
+pip install -r requirements.txt
+
