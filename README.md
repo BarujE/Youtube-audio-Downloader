@@ -18,3 +18,8 @@ Install the required packages:
 ``` 
 pip install -r requirements.txt
 
+
+#⚠️ Legal Notice
+Youtube audio downloader by baruj is an independent open-source project. It operates independently from YouTube and Google, performing downloads and other operations without using their APIs. This project is not bound by YouTube's terms of service or rules.
+
+
