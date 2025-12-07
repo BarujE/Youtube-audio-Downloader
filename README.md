@@ -16,7 +16,13 @@ git clone https:https://github.com/BarujE/Youtube-audio-Downloader.git
 
 Install the required packages:
 ``` 
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+
+choco install ffmpeg -y
+
+ffmpeg -version
+python -c "import pydub, pytube; print('pydub,pytube OK')"
 
 
 # ⚠️ Legal Notice
