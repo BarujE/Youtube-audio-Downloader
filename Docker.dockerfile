@@ -1,8 +1,13 @@
-FROM Python 3.13.7-slim
+FROM python:3.11-slim
 
-WORKDIR .
-COPY . .
+WORKDIR /app
 
-RUN pip install -r requirements.txt
+RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
 
-CMD ["Python", "AudioYouTube.py"]
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY AudioYouTube.py .
+
+CMD ["python", "AudioYouTube.py"]
